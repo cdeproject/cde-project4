@@ -12,3 +12,11 @@ NAME                              READY   STATUS    RESTARTS   AGE
 my-running-app-7bfc75b94f-ljzxd   1/1     Running   0          85s
 Forwarding from 0.0.0.0:8000 -> 80
 Handling connection for 8000
+
+root@MSI:/DevOps_Microservices/project-ml-microservice-kubernetes# ./make_prediction.sh
+Port: 8000
+{
+  "prediction": [
+    20.35373177134412
+  ]
+}
